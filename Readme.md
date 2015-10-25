@@ -1,6 +1,8 @@
 # Foundation theme
 This is a simple dark Foundation 5 theme for [Anchor CMS](http://anchorcms.com/).
 
+![](screenshot.png)
+
 ## Install
 Download the latest release (or check it out from git) and bootstrap the theme using Bower and Compass:
 
