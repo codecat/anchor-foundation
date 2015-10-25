@@ -1,5 +1,5 @@
-Theme name:    CodeCat.nl
-Description:   The theme for CodeCat.nl.
+Theme name:    Foundation
+Description:   Foundation theme for Anchor CMS.
 Author name:   Angelo Geels
 Author site:   http://angelog.nl
 License:       https://opensource.org/licenses/MIT
