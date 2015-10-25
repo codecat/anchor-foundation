@@ -1,6 +1,6 @@
 # Bower
-bower_components
+#bower_components
 
 # Sass
 .sass-cache
-stylesheets
+#stylesheets
