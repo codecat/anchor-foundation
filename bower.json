@@ -1,0 +1,6 @@
+{
+  "name": "codecat.nl",
+  "dependencies": {
+    "foundation": "~5.5.3"
+  }
+}

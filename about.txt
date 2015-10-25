@@ -1,0 +1,5 @@
+Theme name:    CodeCat.nl
+Description:   The theme for CodeCat.nl.
+Author name:   Angelo Geels
+Author site:   http://angelog.nl
+License:       https://opensource.org/licenses/MIT

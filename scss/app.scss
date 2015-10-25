@@ -1,0 +1,57 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,700);
+
+$primary-color: #01B744;
+$secondary-color: #82467F;
+
+$font-family-sans-serif: 'Roboto', Helvetica, sans-serif;
+
+$body-font-color: #e7e7e7;
+$header-font-color: darken($body-font-color, 5%);
+
+$topbar-bg: rgba(32, 26, 38, 0.5);
+$topbar-link-bg-hover: lighten($topbar-bg, 10%);
+$topbar-link-bg: $topbar-bg;
+$topbar-link-bg-active: lighten($topbar-bg, 15%);
+$topbar-link-bg-active-hover: lighten($topbar-link-bg-active, 10%);
+$topbar-dropdown-bg: $topbar-bg;
+$topbar-dropdown-link-bg: $topbar-link-bg;
+$topbar-dropdown-link-bg-hover: $topbar-link-bg-hover;
+
+@import 'foundation';
+
+body {
+	background: url('../img/bg_dark.jpg') no-repeat center center fixed;
+	background-size: cover;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: 300;
+}
+
+section {
+	&.content {
+		background: rgba(0, 0, 0, 0.3);
+		padding-top: 2em;
+		padding-bottom: 2em;
+	}
+
+	&.header {
+		text-align: center;
+		padding-top: 6em;
+		padding-bottom: 4em;
+		margin-bottom: 2em;
+
+		p {
+			margin: 0;
+		}
+	}
+
+	&.footer {
+		padding-top: 1em;
+		padding-bottom: 1em;
+
+		a {
+			margin-right: 1em;
+		}
+	}
+}
